@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":[],"names":[],"mappings":"","file":"app.css"}
+{"version":3,"sourceRoot":"","sources":["../../src/sass/modules/first-section/first-section.scss"],"names":[],"mappings":"AAAC;EACG;EAIA;EACA;;AACA;EACI","file":"app.css"}
