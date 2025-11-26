@@ -1,45 +1,18 @@
-.parent {
-  background-color: rgb(152, 88, 88);
-  width: 70vw;
-  height: 100vh;
-  margin-left: 100px;
-  display: flex;
-  justify-content: center;
-}
+/* Error: Can't find stylesheet to import.
+ *   ,
+ * 2 | @import filePath
+ *   |         ^^^^^^^^
+ *   '
+ *   src\sass\_allModules.sass 2:9  @import
+ *   src\sass\app.scss 2:9          root stylesheet */
 
-.first-section {
-  width: 95%;
-  background-color: aquamarine;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding-top: 10px;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Can't find stylesheet to import.\a   \2577 \a 2 \2502  @import filePath\a   \2502          ^^^^^^^^\a   \2575 \a   src\\sass\\_allModules.sass 2:9  @import\a   src\\sass\\app.scss 2:9          root stylesheet";
 }
-.first-section .img-omlette img {
-  width: 900px;
-  height: 300px;
-}
-.first-section .Recipe {
-  padding-left: 10px;
-}
-.first-section .Recipe h1 {
-  color: rgba(0, 0, 0, 0.79);
-}
-.first-section .Recipe p {
-  color: gray;
-}
-.first-section .time {
-  width: 900px;
-  height: 200px;
-  background-color: rgba(233, 136, 217, 0.714);
-}
-.first-section .time h3 {
-  color: rgb(132, 18, 161);
-}
-.first-section .time ul {
-  color: gray;
-}
-
-/*# sourceMappingURL=app.css.map */
